@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Liên Hệ</title>
+
+<style type="text/css">
+body{background-color:#630;}
+#web{width:1200px; margin:auto;}
+#khoi1
+{
+
+	height:120px;
+	background-color:white;
+}
+#khoi2
+{
+	height:auto;
+	margin-top:5px;
+}
+#c2{background-color:#3C3; height:auto;}
+#cuoi{
+	height:300px;
+	background-color:#630; 
+	color:white; 
+	margin-top:20px;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	text-align: center;
+	list-style-type: none;	
+
+}
+#menu li{
+	display: inline-block;
+	height: 40px;
+	min-width: 120px;
+	margin-right: 0px;
+	line-height: 40px;
+
+}
+#menu a{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+}
+#menu a:hover{
+	background-color: #06C;
+}
+.sub-menu li{
+	display:none;
+}
+#menu li {
+ position: relative;
+}
+.sub-menu a{width:200px;}
+.sub-menu {
+ display: none;
+ position: absolute;
+}
+#menu li:hover .sub-menu {
+ display: block;
+}
+#menu-footer li{
+	display: inline-block;
+	height: 40px;
+	min-width: 120px;
+	margin-right: -5px;
+	line-height: 40px;
+}
+#menu-footer a{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+}
+#menu-footer a:hover{
+	background-color: #06C;
+}
+#menu-footer ul{
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	text-align: center;
+	list-style-type: none;	
+}
+.i1{padding-left:20px;padding-right:20px; text-align:start; background:#FFF;}
+.i3{padding-left:20px;padding-right:20px;text-align:start;}
+
+#txtTen{margin-left:30px;}
+#txtNS{margin-left:30px;} 
+#ListGT {margin-left:36px;}
+#txtDT{margin-left:32px;}
+#txtE{margin-left:34px;}
+#txtCMND{margin-left:47px;}
+</style>
+
+<script type="text/javascript">
+
+function AD()
+{
+	a=CSKH.txtTen.value;
+	b=CSKH.txtDT.value;
+	c=CSKH.txtE.value;
+	d=CSKH.txtND.value;
+	if(a!="" && b!="" && c!="" && d!="")
+	{
+		if(confirm("Bạn cần sự tư vấn của chúng tôi?")==true)
+		{
+			alert("Dịch vụ CSKH Đại Cát sẽ liên hệ với bạn vào thời gian sớm nhất.");
+			CSKH.txtTen.value="";
+			CSKH.txtDT.value="";
+			CSKH.txtE.value="";
+			CSKH.txtND.value="";
+			CSKH.txtNS.value="";
+			CSKH.ListGT.value=0;
+			CSKH.txtCMND.value="";
+			
+		}
+		
+	}
+	else
+		alert("Bạn chưa điền thông tin cần thiết!");
+
+}
+</script>
+</head>
+
+<body>
+    <div id="web">
+    		<div id="khoi1">
+        <table  width="1200" height="120">
+  <tr>
+    <th width="200" bgcolor="#FFFFFF" ><img src="img1.jpg" width="200" height="100" /></th>
+    <td><h2 style="font-family:Arial, Helvetica, sans-serif;color:#333">Công ty Cổ phần Dịch vụ Nhà Hàng Khách Sạn Đại Cát</h2></td>
+  </tr>
+</table>
+
+        </div>
+      		<div id="khoi2">
+        		<div id="c2">
+            	<div id="menu">
+				<ul>
+				<li><a href="trang chu.html">Trang Chủ</a></li>
+				<li><a href="Giới thiệu chung.html">Giới Thiệu</a>
+					<ul class="sub-menu">
+    					<li><a href="Giới thiệu chung.html">Giới Thiệu Chung</a></li>
+  		   			    <li><a href="Lich su phat trien.html">Lịch Sử Phát Triển</a></li>
+			      </ul>
+  				 </li>
+				<li><a href="dvKS.html">Khách Sạn  </a>
+					<ul class="sub-menu">
+    					<li><a href="dvKS.html">Khách Sạn Đại Cát</a></li>
+   			     		<li><a href="cac loai phong/cac loai phong.html">Các Loại Phòng</a></li>
+ 					</ul>
+				</li>
+                <li><a href="ht nha hang/ht nha hang.html">Nhà Hàng  </a>
+					<ul class="sub-menu">
+    					<li><a href="ht nha hang\ht nha hang.html">Hệ Thống Nhà Hàng</a></li>
+   			     		<li><a href="ht nha hang/nha hang dai cat 1/nha hang dai cat 1.html">Nhà Hàng Đại Cát 1</a></li>
+                        <li><a href="ht nha hang/nha hang dai cat2/nha hang dai cat 2.html">Nhà Hàng Đại Cát 2</a></li>
+                        <li><a href="ht nha hang/nha hang dai cat3/nha hang dai cat 3.html">Nhà Hàng Đại Cát 3</a></li> 
+                     </ul>
+				</li>
+				<li style="padding:0px 10px"><a href="dvhoinghi.html">Trung Tâm Hội Nghị   </a></li>
+                  <li><a href="#">Dịch Vụ  </a>
+					<ul class="sub-menu">
+    					<li><a href="dv tiec cuoi/dv tiec cuoi.html">Tổ Chức Tiệc Cưới</a></li>
+   			     		<li><a href="dvhoinghi.html">Tổ Chức Hội Nghị</a></li>
+                        <li><a href="dv be boi/be boi.html">Bể Bơi</a></li>
+                        <li><a href="dv tennis/tennis.html">Sân Tenis</a></li>
+                        <li><a href="dv masa/masa.html">Xông Hơi</a></li>
+ 					</ul>
+				</li>
+                 <li><a href="map.html">Bản Đồ</a></li>
+        	    <li><a href="liên hệ.html">Liên Hệ</a></li>
+				</ul>
+			</div>
+          </div>
+      </div>
+        
+        <table width="1200" style="margin-top:10px;">
+          <tr height="550">
+            <td  width="600" height="411" valign="top" class="i1"><p style="font-size:18px; text-align:center; font-weight:bold; color:#09F;">Công ty cổ phần Du Lịch Đại Cát</p>
+            <p style="font-size:16px;font-weight:bold;color:#099;">Tập đoàn R&H Đại Cát - Công ty TMCP Đại Cát</p><p>Đường Hai Bà Trưng, Phường Đa Kao, Quận 1 - Thành Phố Hồ Chí Minh<br/>Điện thoại:   84.43.8.522.222<br/>84.43.8.333.333</br>Email: daicatcompany@gmail.com</p>
+
+<p style="font-size:16px;font-weight:bold;color:#099;">Hệ thống nhà hàng (đặt hội nghị, hội thảo, tiệc cưới ...)</p>Điện thoại: 04.35 742 118<br />Fax: 04.35 771 549<br />Email: daicatRestaurant@gmail.com</br><p style="font-size:16px;font-weight:bold;color:#099;">Hệ thống khách sạn (đặt phòng)</p>Điện thoại: 04.35 770 328</br>Fax: 04.35 524 919 / 04.35 770 463</br>Email: daicatHotel@gmail.com
+            </td>
+            
+           
+            <td width="600" valign="top" class="i1">
+            	<p style="font-size:18px; text-align:center; font-weight:bold; color:#09F;">Chăm sóc khách hàng</p>
+                <p style="font-size:14px;text-align:center;font-style:italic;">Vui lòng điền thông tin của bạn vào các ô dưới đây. <(*) là thông tin cần phải có>.</p>
+              	<form action="" method="post" name="CSKH" id="CSKH">
+                <label style="font-weight:bold;">Họ tên (*):</label>
+                <input name="txtTen" type="text" id="txtTen"/>
+                <br/><br/>
+                <label style="font-weight:bold;">Ngày sinh:</label>												
+                <input name="txtNS" type="date" id="txtNS" />
+                <br/><br/>
+                <label style="font-weight:bold;">Giới tính:</label>
+                <select name="ListGT" id="ListGT" onchange="MM_jumpMenu('parent',this,0)">
+                  <option></option><option>Nam</option><option>Nữ</option>
+                </select>
+                <br/><br/>
+                <label style="font-weight:bold;">Số ĐT (*):</label>
+				<input name="txtDT" type="number" id="txtDT"/>
+                <br/><br/>
+                <label style="font-weight:bold;">Email (*):</label>
+				<input name="txtE" type="email" id="txtE"/>
+                <br/><br/>
+                <label style="font-weight:bold;">CMND:</label>
+				<input name="txtCMND" type="number" id="txtCMND"/>
+                <br/><br/>
+                <label style="font-weight:bold;">Nội dung (*):</label>
+                <br/>
+                <textarea name="txtND" id="txtND"cols="1" rows="1" style="width:530px;height:100px;;" ></textarea>
+                <br/><br/>
+                <input name="btnSend" type="button" value="Send" style="font-size:16px;margin-left:250px;" onclick="AD();"/>
+                </form>
+          </tr>
+        </table>
+
+    <div id="cuoi">
+	<div id="menu-footer">
+		<ul>
+				<li><a href="trang chu.html">Trang Chủ</a></li>
+				<li><a href="Giới thiệu chung.html">Giới Thiệu</a> </li>
+				<li><a href="dvKS.html">Khách Sạn  </a></li>
+             			<li><a href="ht nha hang/ht nha hang.html">Nhà Hàng</a></li>
+				<li style="padding:0px 10px"><a href="dvhoinghi.html">Trung Tâm Hội Nghị   </a></li>
+                  		<li><a href="dv tiec cuoi/dv tiec cuoi.html">Dịch Vụ  </a></li>
+                 		<li><a href="map.html">Bản Đồ</a></li>
+        	  		<li><a href="liên hệ.html" target="_blank">Liên Hệ</a></li>
+				</ul>
+	</div>
+    
+    <table width="1200" align="center">
+      <tr height="100">
+        <td width="400"class="i3" valign="top"><p><h3>Tiêu chí làm việc</h3><br/>Vui lòng khách đến vừa lòng khách đi.</p></td>
+        <td width="400" class="i3" valign="top"><p><h3>Liên hệ</h3><br/>Đường Hai Bà Trưng, Phường Đa Kao, Quận 1 - Thành Phố Hồ Chí Minh<br/><br/>Điện thoại:   84.43.8.522.222<br/>84.43.8.333.333<br/><br/>Email: daicatcompany@gmail.com <br/></p></td>
+        <td width="400" class="i3" valign="top"><p><h3>Giờ Làm Việc</h3><br/>24/7 các ngày trong tuần<br/>Thứ 7 & Chủ nhật vẫn làm việc bình thường<br/>Ngày lễ xin quý khách gọi điện đặt phòng trước</br></p></td>
+      </tr>
+    </table>
+    
+</body>
+</html>
